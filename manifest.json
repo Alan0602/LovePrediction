@@ -3,7 +3,7 @@
 "protocol_handlers": [{"protocol":"mailto","url":"/newEmail?to=%s"}], 
 "name": "Love Prediction",
 "short_name": "Luv",
-"start_url": "The URL that should be loaded when your application is opened",
+"start_url": "https://love-prediction.vercel.app/",
 "display": "standalone",
 "description": "A description for your application",
 "lang": " The default language of your application",
@@ -36,14 +36,14 @@
 "related_applications": [
     {
         "platform":"windows",
-        "url": " https://www.pwabuilder.com"
+        "url": " https://love-prediction.vercel.app/"
     }
 ],
 "prefer_related_applications": false,
 "shortcuts": [
     {
         "name":"Luv ",
-        "url":"The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
+        "url":"https://love-prediction.vercel.app/",
         "description":"A description of the functionality of this shortcut"
     }
 ]

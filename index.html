@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Prediction</title>
+<script>navigator.serviceWorker.register("service-worker.js")</script> 
+<link rel="manifest" href="manifest.json" />    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="images/hearts.png" class="heart-image hearts-top-left" alt="Hearts">
+        <div class="anh1"><h1 >Love Prediction </h1></div>
+        <label for="person1">Person 1:</label>
+        <input type="text" id="person1" placeholder=" First person's name" ><br>
+        <label for="person2">Person 2:</label>
+        <input type="text" id="person2" placeholder="Second person's name" ><br>
+        <button id="calculateBtn">Calculate ❤</button>
+        <button id="resetBtn"><img src="images/reset.png" height="25px" width="25px"></button>
+        <button id="swapBtn"><img src="images/swap.png" height="25px" width="25px"></button>
+        <div id="heartContainer" class="heart-container">
+            <div id="heartResult" class="heart-result"></div>
+        </div>
+        <img src="images/dove.png" class="heart-image dove-bottom-right" alt="Dove">
+        <div id="loader" class="heart-loader"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

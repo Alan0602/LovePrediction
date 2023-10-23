@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(rgb(245, 190, 190), white);
+   
+
+}
+
+.container {
+    text-align: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 4rem;
+    color: rgb(243, 220, 220);
+   z-index: 1;
+
+}
+.anh1{
+    border-radius:25px ;
+    background: linear-gradient(rgb(215, 113, 113), rgb(232, 131, 131));
+    box-shadow: 2px;
+    animation: animate 2s ease-in-out ;
+}
+@keyframes animate{
+    0%{
+        clip-path: polygon(0% 99%, 0% 70%, 0% 41%, 1% 20%, 9% 20%, 19% 26%, 27% 34%, 38% 43%, 48% 53%, 59% 60%, 67% 60%, 71% 59%, 79% 59%, 85% 57%, 93% 58%, 96% 57%, 100% 60%, 99% 100%);
+    }
+    30%{
+        clip-path: polygon(0% 98%, 0% 57%, 8% 49%, 21% 41%, 35% 37%, 43% 32%, 52% 32%, 58% 39%, 65% 47%, 73% 51%, 85% 54%, 92% 53%, 99% 50%, 100% 99%);
+    }
+    60%{
+        clip-path: polygon(0% 99%, 0% 45%, 12% 34%, 26% 27%, 40% 24%, 49% 26%, 57% 31%, 66% 41%, 80% 43%, 90% 43%, 98% 40%, 100% 99%);
+    }
+    100%{
+        clip-path: polygon(0% 3%, 20% 6%, 44% 4%, 68% 1%, 88% 0%, 100% 0%, 100% 99%, 0% 98%);
+    }
+}
+
+input {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius:15px ;
+    border: #ff4e50 solid .5px;
+    box-shadow: 2px;
+}
+label{
+    font-weight: bold;
+    color: #ff4e50;
+}
+#calculateBtn {
+    background: linear-gradient(rgb(244, 185, 185), white);
+    font-weight: bold;
+    color: #ff4e50;
+    padding: 8px;
+    font-size: 16px;
+    border-radius:15px ;
+    border: #ff4e50 solid .5px;
+    box-shadow: 2px;
+}
+
+
+.heart-result {
+    color: rgb(246, 50, 50);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    animation: heartbeat 1s infinite;
+
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.02);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#swapBtn, #resetBtn {
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    margin-left: .5rem;
+
+}
+
+.heart-image.hearts-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55%; /* Adjust the width as needed for responsiveness */
+    max-width: 450px; /* Set a maximum width if necessary */
+}
+
+/* Dove Image at Bottom Right */
+.heart-image.dove-bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 55%; /* Adjust the width as needed for responsiveness */
+    max-width: 450px; /* Set a maximum width if necessary */
+}

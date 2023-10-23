@@ -13,13 +13,13 @@
 "orientation": "any",
 "icons": [
     {
-        "src": "https://github.com/Alan0602/LovePrediction/blob/main/images/image%201.png?raw=true",
+        "src": "images/image1.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable"
     },
     {
-        "src": "https://github.com/Alan0602/LovePrediction/blob/main/images/image%202.png?raw=true",
+        "src": "images/image2.png",
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "any"

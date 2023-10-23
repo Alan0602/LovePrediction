@@ -5,21 +5,21 @@
 "short_name": "Luv",
 "start_url": "https://love-prediction.vercel.app/",
 "display": "standalone",
-"description": "A description for your application",
-"lang": " The default language of your application",
+"description": "Predict the love for fun",
+"lang": " Html5 CSS JavaScript",
 "dir": "auto",
 "theme_color": "#000000",
 "background_color": "#000000",
 "orientation": "any",
 "icons": [
     {
-        "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
+        "src": "https://github.com/Alan0602/LovePrediction/blob/main/images/image%201.png?raw=true",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable"
     },
     {
-        "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
+        "src": "https://github.com/Alan0602/LovePrediction/blob/main/images/image%202.png?raw=true",
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "any"
@@ -27,10 +27,10 @@
 ],
 "screenshots": [
     {
-        "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+        "src": "https://github.com/Alan0602/LovePrediction/blob/main/images/dove.png?raw=true",
         "sizes": "2880x1800",
         "type": "image/png",
-        "description": "A screenshot of the home page"
+        "description": "Predict the love for fun"
     }
 ],
 "related_applications": [
@@ -44,7 +44,7 @@
     {
         "name":"Luv ",
         "url":"https://love-prediction.vercel.app/",
-        "description":"A description of the functionality of this shortcut"
+        "description":"Predict the love for fun"
     }
 ]
 }
